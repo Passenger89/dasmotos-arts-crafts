@@ -1,0 +1,55 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.site-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-heading {
+  font-family: Helvetica, sans-serif;
+  font-size: 10rem;
+  font-weight: bold;
+  color: khaki;
+  background-image: url('../images/pattern.jpg');
+  border-bottom: 5px solid khaki;
+  text-align: center;
+}
+.category-heading {
+  font-family: Helvetica, sans-serif;
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: white;
+}
+.category-heading.brushes {
+  background-color: mediumspringgreen;
+}
+.category-heading.frames {
+  background-color: lightcoral;
+}
+.category-heading.paint {
+  background-color: skyblue;
+}
+.category-subheading {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+.category-description {
+  font-size: 1.6rem;
+}
+
+span {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  color: blue;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1.5em;
+  min-height: 45em;
+}
